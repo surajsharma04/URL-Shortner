@@ -1,0 +1,104 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://png.pngtree.com/element_our/20200702/ourmid/pngtree-vector-pattern-material-click-url-image_2281151.jpg);
+}
+
+.container {
+    background-color: #fafbfcfc;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+#shorten-form {
+    display: flex;
+    gap: 10px;
+}
+
+#long-url-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#long-url-input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1cdb4f;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+}
+
+.result-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#short-url-link {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #2980b9;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+#short-url-link:hover {
+    text-decoration: underline;
+}
+
+#copy-feedback {
+    margin-top: 10px;
+    color: #7a9d3d;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
