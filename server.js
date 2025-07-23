@@ -1,13 +1,3 @@
-//  how to run:
-//  cd backend
-//  npm init -y
-//  npm install express cors sqlite3 nanoid valid-url
-//  npm start
-// Developed a URL shortening web app using Node.js, Express, SQLite, and vanilla JavaScript, allowing users to convert long URLs into short, shareable links.
-
-// Implemented a REST API with URL validation, short code generation (using nanoid), and database storage for original and shortened URLs.
-
-// Designed a responsive frontend UI with real-time feedback, copy-to-clipboard functionality, and smooth user experience using HTML, CSS, and JavaScript.
 
 const express = require('express');
 const cors = require('cors');
